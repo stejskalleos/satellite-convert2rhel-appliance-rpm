@@ -7,7 +7,7 @@ URL:      https://todo.org
 
 Requires: bash
 
-Source0:  satellite-convert2rhel-appliance.tar.gz
+Source0:  source.tar.gz
 
 %description
 TODO
@@ -18,7 +18,7 @@ TODO
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{_bindir}
-cp /home/lstejska/projects/c2r/rpm/scripts/run $RPM_BUILD_ROOT%{_bindir}/satellite-convert2rhel-appliance
+cp /home/lstejska/projects/c2r/rpm/scripts/main.sh $RPM_BUILD_ROOT%{_bindir}/satellite-convert2rhel-appliance
 
 %files
 %{_bindir}/satellite-convert2rhel-appliance
