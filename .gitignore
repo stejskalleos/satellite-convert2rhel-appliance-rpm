@@ -1,4 +1,4 @@
 BUILD/**/*
 SOURCES/*.tar.gz
-RPMS/**/*.rpm
+RPMS/**/*
 SRPMS/*.rpm
